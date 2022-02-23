@@ -1,0 +1,155 @@
+.cd-detail-header img {
+    width: 100%;
+}
+.cd-intro-part {
+    margin-top: 50px;
+}
+.cd-intro-detail {
+    position: relative;
+    background-color: white;
+    margin-top: 30%;
+    padding-bottom: 50px;
+}
+.cd-detail-img {
+    margin-top: -100px;
+}
+.cd-detail-img img {
+    margin-top: -20%;
+    width: 100%;
+}
+.cd-detail-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cd-detail-cr-title {
+    font-weight: bold;
+}
+.cd-detail-content-right {
+    border-left: 1px solid #504747;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.cd-before {
+    margin-top: 50px;
+    text-align: center;
+}
+.cd-before-title-en {
+    font-weight: bold;
+}
+.cd-before-title {
+    font-weight: bold;
+}
+.cd-before-detail {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.before-detail {
+    width: 31%;
+}
+.before-detail img {
+    width: 100%;
+}
+.cd-client-faq {
+    background-color: #EFF0F2;
+    margin-top: 40px;
+    padding: 20px;
+}
+.client-faq-title {
+    font-weight: bold;
+}
+
+/* Designer Part Section */
+.common-le-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.cd-de-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    padding: 30px 0;
+}
+.cd-de-profile {
+    width: 50%;
+}
+.cd-de-img {
+    width: 50%;
+}
+.cd-de-img img {
+    width: 100%;
+}
+.cd-de-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* End Designer Part Section */
+
+/* Other Photo Part Section */
+.cd-other-part {
+    margin-top: 150px;
+}
+.cd-other-title {
+    font-weight: bold;
+    text-align: center;
+}
+.cd-other-content {
+    position: relative;
+    background-color: white;
+    margin-top: 18%;
+    padding-bottom: 50px;
+}
+.cd-other-img img {
+    margin-top: -20%;
+    width: 100%;
+}
+.cd-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+.cd-self-comment {
+    width: 45%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ECE8E8;
+}
+.cd-client-comment {
+    width: 45%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ECE8E8;
+}
+.cd-self-comment h4 {
+    color: black;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+.cd-self-comment p {
+    line-height: 200%;
+    color: #957575;
+    text-shadow: 2px 2px 5px #957575;
+}
+.cd-detail-header {
+    position: relative;
+}
+.cd-detail-header div {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    color: #000000;
+    font-size: 30px;
+}
+/* End Other Photo Part Section */

@@ -1,0 +1,421 @@
+/* Garden Plan Style Define */
+.garden-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.garden-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+}
+.garden-top-left:nth-child(1) {
+    padding-left: 3%;
+}
+.garden-top-left:nth-child(2) {
+    right: 0;
+    padding-right: 3%;
+}
+.garden-top-rotate-border {
+    border-bottom: 50px solid #B7B7B7;
+    width: 3px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #B7B7B7;
+}
+.garden-top-title-right {
+    writing-mode: vertical-rl;
+    text-align: right;
+    color: #B7B7B7;
+    text-shadow: 2px 2px 5px #00000057;
+    font-weight: bold;
+}
+.garden-top-left:nth-child(1) .garden-top-title-right {
+    /* margin-top: 430px; */
+    margin-top: 750%;
+}
+.garden-top-left:nth-child(2) .garden-top-title-right {
+    /* margin-top: 80px; */
+    margin-top: 200%;
+}
+.garden-content-part {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: 44%;
+}
+.garden-content-part img {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -42%;
+}
+.garden-detail-show {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.garden-detail-head {
+    margin-top: 50px;
+}
+.garden-plan {
+    margin-top: 30px;
+    border-bottom: 1px solid #707070;
+}
+.garden-plan-text {
+    font-weight: bold;
+}
+.garden-plan-text span {
+    border-bottom: 3px solid #707070;
+    padding-bottom: 2px;
+}
+.garden-function {
+    margin-top: 30px;
+    font-weight: bold;
+}
+.garden-function-detail {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.garden-function-title span:nth-child(1) {
+    color: #707070;
+}
+.garden-function-title span:nth-child(2) {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.garden-keep-mana {
+    margin-top: 50px;
+}
+.garden-keep-mana-title {
+    font-weight: bold;
+}
+.garden-keep-detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+}
+.garden-keep-img {
+    width: 25%;
+}
+.garden-keep-img img {
+    width: 100%;
+    padding-left: unset;
+    padding-right: unset;
+    margin-top: 0;
+}
+.garden-keep-content {
+    width: 75%;
+    background-color: #F7F7F7;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 250%;
+}
+/* End Garden Plan Style Define */
+
+/* Garden Light Plan Style Define */
+.gl-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+}
+.gl-top-rotate-border {
+    border-bottom: 50px solid #B7B7B7;
+    width: 3px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #B7B7B7;
+}
+.gl-top-title-right {
+    writing-mode: vertical-rl;
+    text-align: right;
+    color: #B7B7B7;
+    text-shadow: 2px 2px 5px #00000057;
+    font-weight: bold;
+}
+.gl-top-left:nth-child(1) .gl-top-title-right {
+    /* margin-top: 430px; */
+    margin-top: 500%;
+}
+.gl-top-left:nth-child(2) .gl-top-title-right {
+    /* margin-top: 80px; */
+    margin-top: 200%;
+}
+.gl-top-left:nth-child(1) {
+    padding-left: 3%;
+}
+.gl-top-left:nth-child(2) {
+    right: 0;
+    padding-right: 3%;
+}
+.gl-type-title {
+    border-bottom: 1px solid #707070;
+    margin-top: 50px;
+}
+.gl-type-title span {
+    border-bottom: 3px solid #707070;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.gl-type-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.gl-type-content-left {
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+}
+.gl-type-cl-img {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.gl-type-cl-img-ot {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.gl-type-cl-img-ot img {
+    width: 100%;
+    margin-top: unset;
+    padding: unset;
+}
+.gl-type-cl-img img {
+    width: 100%;
+    margin-top: unset;
+    padding: unset;
+}
+.gl-type-cl-text {
+    padding: 15px;
+    background-color: #F7F7F7;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gl-type-clt-title {
+    font-weight: bold;
+}
+/* End Garden Light Plan Style Define */
+
+/* Reform Plan Style Define */
+.reform-text {
+    position: absolute;
+    top: 42%;
+    font-weight: bold;
+    color: white;
+}
+/* End Reform Plan Style Define */
+
+/* Exterior Style Define */
+.exterior-detail {
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+.exterior-detail-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.exterior-detail-1 .left-img {
+    width: 60%;
+}
+.exterior-detail-1 .left-img img {
+    width: 100%;
+}
+.exterior-detail-1 .right-content {
+    position: absolute;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 0%;
+}
+.right-content .right-content-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.right-content .right-content-part {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.right-content-part-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.right-content-part-left:nth-child(1) {
+    margin-top: 15rem;
+}
+.right-content-part-left:nth-child(3) {
+    margin-top: 2rem;
+}
+.right-content-part-md {
+    line-height: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.right-content-part-text {
+    writing-mode: vertical-rl;
+}
+.right-content-rotate-border {
+    border-bottom: 5rem solid #9A9282;
+    width: 1px;
+}
+
+.exterior-detail .exterior-detail-1:nth-child(3) .right-content .right-content-part .right-content-part-md {
+    line-height: 2.9rem;
+}
+.exterior-detail-2 {
+    margin-top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.exterior-detail-2 .right-img {
+    width: 60%;
+    margin-left: auto;
+}
+.exterior-detail-2 .right-img img {
+    width: 100%;
+}
+.exterior-detail-2 .left-content {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+}
+.left-content-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+.left-content-part {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.left-content-part-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.left-content-part-left:nth-child(3) {
+    margin-top: 15rem;
+}
+.left-content-part-md {
+    line-height: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.left-content-part-text {
+    writing-mode: vertical-rl;
+}
+.exterior-detail-1:nth-child(3) {
+    margin-top: 150px;
+}
+/* End Exterior Style Define */
+
+
+/* Remodeling Style Define */
+.re-title h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.re-img img {
+    margin-top: 40px;
+    padding: 0;
+    width: 100%;
+}
+/* End Remodeling Style Define */
+
+/* WoodDeck Style Define */
+.wooddeck-rating {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #eee;
+    margin-top: 50px;
+    align-items: center;
+    padding: 20px;
+}
+.wk-left {
+    width: 30%;
+}
+.wk-left img {
+    margin: 0;
+}
+.wk-right {
+    width: 70%;
+    margin-left: 30px;
+}
+.wk-right-title h5 {
+    font-size: 1.5rem;
+}
+.wk-right-content p {
+    font-size: 1rem;
+}
+/* End WoodDeck Style Define */
+
+/* Dog Garden Style Define */
+.dg-img img {
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+}
+.dg-img-detail {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+/* End Dog Garden Style Define */
+
+/* Parking Style Define */
+.pk-grid-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pk-img img {
+    margin-top: 50px;
+    width: 100%;
+    padding-left: unset;
+    padding-right: unset;
+}
+.pk-img-group {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+.group-text {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* End Parking Style Define */

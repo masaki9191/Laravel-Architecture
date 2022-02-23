@@ -1,0 +1,184 @@
+body {
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝",'Sorts Mill Goudy', "Noto Serif JP", serif;
+    margin: 0;
+    background-color: #EFF0F2;
+}
+.gothic {
+    font-family: "游ゴシック体", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", HiraKakuProN, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+/* Padding and Margin Setting */
+.pd-lr-10f {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.pd-lr-15f {
+    padding: 0 15%;
+}
+.pd-lr-5f {
+    padding: 0 5%;
+}
+.pd-left-10f {
+    padding-left: 10%;
+}
+.mg-lr-5f {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mg-lr-10f {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pd-lr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pd-tb-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mt-150 {
+    margin-top: 150px;
+}
+.mt-mision-200 {
+    margin-top: 180px;
+}
+.mt-slider-200 {
+    margin-top: 180px;
+}
+.sp-mt {
+    margin-top: 150px;
+}
+.mt-270 {
+    margin-top: 270px;
+}
+
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+/* End Padding and Margin Setting */
+
+
+
+/* Color Setting */
+.color-2a {
+    color: #2A2A2A;
+}
+.color-57 {
+    color:  #575A5F;
+}
+.color-5e {
+    color: #5E6165;
+}
+.color-8b {
+    color: #8B8080;
+}
+.color-85 {
+    color: #853535;
+}
+.color-70 {
+    color: #707070;
+}
+.color-9a {
+    color: #9A9282;
+}
+.color-4b {
+    color: #4B4040;
+}
+.color-white {
+    color: white;
+}
+.color-cb {
+    color: #CBC3C3;
+}
+.color-eb {
+    color: #EB6E20;
+}
+/* End Color Setting */
+
+
+/* Font Setting */
+html {
+    font-size: 1vw;
+}
+.font-14 {
+    font-size: 0.875rem;
+}
+.font-15 {
+    font-size: 0.9375rem;
+}
+.font-16 {
+    font-size: 1rem;
+}
+.font-18 {
+    font-size: 1.125rem;
+}
+
+.font-20 {
+    font-size: 1.25rem;
+}
+.font-25 {
+    font-size: 1.5625rem;
+}
+.font-30 {
+    font-size: 1.875vw;
+}
+.font-40 {
+    font-size: 2.5rem;
+}
+.font-50 {
+    font-size: 3.125rem;
+}
+/* End Font Setting */
+
+/* Postion Define */
+.pos-rel {
+    position: relative;
+}
+
+.text-decoration-unset{
+    text-decoration: unset;
+}
+/* End Position Define */
+/* Common Rotate Effect Style Define */
+
+/* End Common Rotate Effect Style Define */
+
+@media(max-width:1024px) {
+    html {
+        font-size: 1.2vw;
+    }
+    .font-16 {
+        font-size: 0.95vw;
+    }
+    .mt-70 {
+        margin-top: 55px;
+    }
+}
+@media(max-width:768px) {
+    .mt-70 {
+        margin-top: 0px;
+    }
+}
